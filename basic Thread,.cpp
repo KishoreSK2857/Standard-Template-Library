@@ -1,4 +1,10 @@
-#include <iostream>
+/*   Write a C++ program that creates two threads.
+One thread should print all even numbers from 1 to 20,
+and the other thread should print all odd numbers from 1 to 20.2
+Ensure that the output of both threads is synchronized correctly.  */
+
+
+#include <iostream>      
 #include <thread>
 #include <mutex>
 #include <bits/stdc++.h>
